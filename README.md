@@ -14,7 +14,7 @@
 | :---: | :---: | :---: |
 | 곽도영 | ETL 파이프라인 구축 및 시각화 | https://github.com/dooby99 |
 | 이민재 | ETL 파이프라인 구축 및 시각화 | https://github.com/snowmuffin |
-| 전찬수 | ETL 파이프라인 구축 및 시각화 |  |
+| 전찬수 | ETL 파이프라인 구축 및 시각화 | https://github.com/bingryun |
 
 ### 활용 기술 및 프레임 워크
 ||프레임 워크|
