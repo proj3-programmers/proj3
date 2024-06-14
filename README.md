@@ -28,6 +28,7 @@
 ### ERD
 <details>
 <summary> ERD 보기 </summary>
+   
 ![image](https://github.com/proj3-programmers/proj3/assets/102219869/8c027bd9-1c24-40b5-bb63-aef1b0c1fc1c)
 </details>
 
