@@ -125,7 +125,7 @@ with DAG(
     start_date = datetime(2023,5,30),
     catchup=False,
     tags=['API'],
-    schedule = '0 2 * * *'
+    schedule = '0 11 * * *'
 ) as dag:
 
     results = extract_transform()
