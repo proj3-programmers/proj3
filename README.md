@@ -20,7 +20,7 @@
 ||프레임 워크|
 |:---:|:---:|
 |Data|공연정보 API, 기상정보API|
-|Data Preprocessing|Python|
+|Data Preprocessing|Python, Airflow|
 |Data Warehouse(DB)|RedShift|
 |Visualization & Dashboard|Preset|
 |Team Management|Slack, Github, Notion|
