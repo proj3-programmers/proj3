@@ -71,7 +71,7 @@ with DAG(
     start_date = datetime(2024,1,1),
     catchup=False,
     tags=['API'],
-    schedule = '0 2 * * *'
+    schedule_interval='@monthly'
 ) as dag:
 
     results = extract_transform()
