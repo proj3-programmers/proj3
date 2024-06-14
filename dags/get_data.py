@@ -1,5 +1,8 @@
-from datetime import datetime, timedelta
+import os
 import requests
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
+from collections import defaultdict
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
@@ -63,7 +66,6 @@ def collect_data_execution():
     
     for item in data:
         try:
-         
             UNI_ID = item.find("mt10id").get_text().strip()
             NAME = item.find("fcltynm").get_text().strip()
             HALL_NUM = item.find("mt13cnt").get_text().strip()
